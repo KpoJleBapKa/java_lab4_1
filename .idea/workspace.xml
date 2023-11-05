@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1f56289-e565-4aed-9b53-0d1bfb658ebf" name="Changes" comment="">
+    <list default="true" id="a1f56289-e565-4aed-9b53-0d1bfb658ebf" name="Changes" comment="v1.0 adding test">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kroll/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/PalindromeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kroll/PalindromeChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kroll/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kroll/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,19 @@
       <option name="presentableId" value="Default" />
       <updated>1699189269429</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1.0 adding test">
+      <option name="closed" value="true" />
+      <created>1699190252397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699190252397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.0 adding test" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0 adding test" />
   </component>
 </project>
