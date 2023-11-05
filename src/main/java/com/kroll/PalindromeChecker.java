@@ -3,8 +3,7 @@ package com.kroll;
 public class PalindromeChecker {
 
     public static boolean isPalindrome(String word) {
-        String cleanWord = word.replaceAll("\\s", "").toLowerCase(); // прибирання пробілів та переведення тексту у нижній регістр
-
+        String cleanWord = word.replaceAll("[^a-zA-Z]", "").toLowerCase();
         int left = 0;
         int right = cleanWord.length() - 1;
 
@@ -18,5 +17,6 @@ public class PalindromeChecker {
         return true;
     }
 }
+
 
 
