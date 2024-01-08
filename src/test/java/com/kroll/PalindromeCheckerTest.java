@@ -6,9 +6,16 @@ public class PalindromeCheckerTest {
 
     @Test
     public void testIsTextPalindrome() {
-        assertTrue(Main.isTextPalindrome("А баба на волі цілована баба"));
-        assertTrue(Main.isTextPalindrome("Уму мінімуму"));
-        assertTrue(Main.isTextPalindrome("Три психи пили Пилипихи спирт"));
-        assertTrue(Main.isTextPalindrome("І розморозь зором зорі"));
+        assertFalse(Main.isTextPalindrome(null));
+        assertTrue(Main.isTextPalindrome("radar"));
+        assertFalse(Main.isTextPalindrome("banana"));
+        assertTrue(Main.isTextPalindrome("hannah"));
+        assertTrue(Main.isTextPalindrome("pup"));
+        assertTrue(Main.isTextPalindrome("nan"));
+        assertFalse(Main.isTextPalindrome("lollipop"));
+        assertTrue(Main.isTextPalindrome("eye"));
+        assertTrue(Main.isTextPalindrome("6543456"));
+        assertTrue(Main.isTextPalindrome("step on no pets"));
+        assertTrue(Main.isTextPalindrome("A man a plan a canal Panama"));
     }
 }

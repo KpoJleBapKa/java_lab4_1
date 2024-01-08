@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1f56289-e565-4aed-9b53-0d1bfb658ebf" name="Changes" comment="v2.0 adding README.md, editing other files">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kroll/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kroll/PalindromeChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kroll/PalindromeCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kroll/PalindromeCheckerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a1f56289-e565-4aed-9b53-0d1bfb658ebf" name="Changes" comment="v3.0 correction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/!Навчання/Java/програми/java_lab4_1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Програмування/Unity/negr/java_lab4_2"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,12 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699191038305</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v3.0 correction">
+      <option name="closed" value="true" />
+      <created>1704728859817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704728859817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0 adding test" />
     <MESSAGE value="v2.0 adding README.md, editing other files" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.0 adding README.md, editing other files" />
+    <MESSAGE value="v3.0 correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="v3.0 correction" />
   </component>
 </project>

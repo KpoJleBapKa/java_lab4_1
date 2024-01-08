@@ -29,23 +29,23 @@ public class Main {
 }
 
     public static boolean isTextPalindrome(String text) {
-        var chars = text.toLowerCase().toCharArray();
+        if (text == null) {
+            return false;
+        }
+
+        var chars = text.toLowerCase().replaceAll("[^a-zA-Z0-9]", "").toCharArray();
         var left = 0;
         var right = chars.length - 1;
+
         while (left < right) {
             if (chars[left] != chars[right]) {
                 return false;
             }
-
-            do {
-                left++;
-            } while (left < right && chars[left] == ' ');
-
-            do {
-                right--;
-            } while (right > left && chars[right] == ' ');
+            left++;
+            right--;
         }
         return true;
     }
+
 }
 
