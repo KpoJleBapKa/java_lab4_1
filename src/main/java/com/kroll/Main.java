@@ -1,25 +1,51 @@
 package com.kroll;
 import java.util.Scanner;
 
+
 public class Main {
     public static void main(String[] args) {
+        System.out.println(isTextPalindrome("ABOBA"));
+        System.out.println(isTextPalindrome("Абоба"));
+        System.out.println(isTextPalindrome("Не паліндром"));
+        System.out.println(isTextPalindrome("Уму мінімуму"));
+        System.out.println(isTextPalindrome("І розморозь зором зорі"));
+        System.out.println(isTextPalindrome("Три психи пили Пилипихи спирт"));
+
+
         Scanner scanner = new Scanner(System.in);
 
-        while (true) {
-            System.out.println("Введіть слово для перевірки на паліндром (або exit для виходу):");
-            String word = scanner.nextLine();
-            if (word.equalsIgnoreCase("exit")) {
-                System.out.println("Програма завершена.");
-                break;
-            }
-            if (PalindromeChecker.isPalindrome(word)) {
-                System.out.println(word + " є паліндромом.");
+        while(true) {
+            System.out.println("Введіть слово або речення для перевірки на паліндром:");
+            String inputText = scanner.nextLine();
+
+            boolean isPalindrome = isTextPalindrome(inputText);
+
+            if (isPalindrome) {
+                System.out.println("Введений текст є паліндромом.");
             } else {
-                System.out.println(word + " не є паліндромом.");
+                System.out.println("Введений текст не є паліндромом.");
             }
         }
+}
 
-        scanner.close();
+    public static boolean isTextPalindrome(String text) {
+        var chars = text.toLowerCase().toCharArray();
+        var left = 0;
+        var right = chars.length - 1;
+        while (left < right) {
+            if (chars[left] != chars[right]) {
+                return false;
+            }
+
+            do {
+                left++;
+            } while (left < right && chars[left] == ' ');
+
+            do {
+                right--;
+            } while (right > left && chars[right] == ' ');
+        }
+        return true;
     }
 }
 
